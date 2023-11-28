@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Ecosystem Monitoring</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Smart Ecosystem Monitoring</h1>
+        <p>Bringing Intelligence to Environmental Monitoring</p>
+      </div>
+    </header>
+
+    <section id="overview" class="section-light">
+      <div class="section-container">
+        <h2>Project Overview</h2>
+        <p>
+          Welcome to our Smart Ecosystem Monitoring project. It leverages the
+          power of IoT to create an intelligent solution for monitoring and
+          managing diverse ecosystems. By deploying sensor nodes and utilizing
+          real-time data analysis, it provides valuable insights for informed
+          decisions in ecosystem conservation and sustainability.The proposed
+          system employs a network of IoT devices strategically deployed within
+          the ecosystem, equipped with sensors capable of collecting real-time
+          data on various environmental parameters. By deploying sensor nodes in
+          diverse ecosystems and utilizing real time data analysis and machine
+          learning, it provides a comprehensive and user-friendly system for
+          continuous ecosystem observation.
+        </p>
+      </div>
+    </section>
+    <p></p>
+
+    <section id="components" class="section-dark">
+      <div class="section-container">
+        <br />
+        <h2>Key Components</h2>
+        <ul>
+          <li>
+            <h3>ESP32</h3>
+            <p>
+              The versatile ESP32 microcontroller with Wi-Fi/Bluetooth
+              capabilities serves as a cornerstone for various IoT projects.
+            </p>
+            <img src="esp32.png" alt="ESP32 Image" />
+          </li>
+          <li>
+            <h3>TEMPERATURE-HUMIDITY SENSOR</h3>
+            <p>
+              The DHT11 is a digital sensor designed to provide real-time data
+              on temperature and humidity. Employs a resistive-type humidity
+              measurement component and a negative temperature coefficient (NTC)
+              thermistor for accurate readings.
+            </p>
+            <img src="temp.jpg" alt="TEMPERATURE-HUMIDITY SENSOR" />
+          </li>
+          <li>
+            <h3>GAS SENSOR</h3>
+            <p>
+              The MQ-135 gas sensor is used for air quality monitoring and
+              safety equipment. The sensor operates on the principle of
+              chemiresistance, where the electrical resistance changes in
+              response to the concentration of the target gas.
+            </p>
+            <img src="gas.jpg" alt="GAS SENSOR" />
+          </li>
+          <li>
+            <h3>RAIN SENSOR</h3>
+            <p>
+              A rain sensor detects the presence of rain or precipitation. It
+              operates by measuring the electrical conductivity or capacitance
+              of the sensor surface, is typically composed of a sensing element,
+              often made of a hydrophilic material that attracts water.
+            </p>
+            <img src="RAIN.png" alt="RAIN SENSOR" />
+          </li>
+          <li>
+            <h3>SOIL MOISTURE SENSOR</h3>
+            <p>
+              A soil moisture sensor is used to measure the water content in the
+              soil. Typically equipped with probes that are inserted into the
+              soil, detects changes in electrical conductivity or resistance
+              caused by variations in moisture levels.
+            </p>
+            <img src="soil.jpg" alt="SOIL MOISTURE SENSOR" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="overview1" class="section-light">
+      <div class="section-container">
+        <h2>CIRCUIT DESCRIPTION AND WORKING</h2>
+        <p>
+          The "Smart Ecosystem Monitoring" project utilizes an ESP32
+          microcontroller along with sensors including DHT11 (temperature and
+          humidity), MQ135 (gas), a rain sensor, and a soil moisture sensor. A
+          buzzer is incorporated for audible alerts.
+        </p>
+        <div class="project-image">
+          <img src="project.jpg" alt="Smart Ecosystem Monitoring in Action" />
+          <p>
+            - The ESP32 is programmed to establish a connection to the Blynk
+            platform using its API and authentication token.
+          </p>
+          <p>
+            - The data collected from sensors is sent to the Blynk platform
+            through the ESP32, providing insights into environmental conditions.
+          </p>
+          <p>
+            - Blynk can be configured to send alerts based on sensor data,
+            enhancing the system's security features.
+          </p>
+          <p>
+            This circuit forms the basis of a versatile IoT project for
+            environmental monitoring and security.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section-dark">
+      <div class="section-container">
+        <h2>RESULTS</h2>
+        <div class="result-item">
+          <img src="S1.jpg" alt="Result Photo 1" />
+          <img src="S2.jpg" alt="Result Photo 2" />
+          <p>Output on serial monitor.</p>
+          <br /><br />
+          <div class="blynk-img">
+            <img src="blynk.jpg" alt="Blynl Photo 1" />
+            <p>Result of the project in blynk app</p>
+          </div>
+        </div>
+        <!-- Add similar styling for other result items -->
+      </div>
+    </section>
+
+    <div class="container section-light">
+      <div class="subcont">
+        <h2>CONCLUSION</h2>
+        <p>
+          In conclusion, the IoT-based "Smart Ecosystem Monitoring" project
+          represents a comprehensive solution for environmental observation
+          using the ESP32 microcontroller and various sensors. The integration
+          with the Blynk platform allows for real-time monitoring and alerts,
+          contributing to effective ecosystem management.This project serves as
+          a testament to the potential of IoT technology to enhance our daily
+          lives, whether in managing agricultural operations, conserving
+          resources, or securing our homes. It offers a glimpse into the future,
+          where data-driven decision-making and remote monitoring become the
+          norm. As the Internet of Things continues to evolve, projects like
+          this pave the way for innovative solutions that improve our quality of
+          life.
+        </p>
+        <div class="cont">
+          <!-- Add your conclusion content here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container section-light" style="column-count: 2">
+      <div class="subcont" style="padding-left: 20px; padding-top: 10px">
+        <h2 style="text-align: left">Special Thanks to</h2>
+        <h4 style="font-size:22px"><b>Dr.Jason Elroy Martis</b></h4>
+        <h5 style="font-size: medium;">for guiding us</h5>
+        <br />
+        <br />
+      </div>
+      <div style="padding-right: 20px; padding-top: 10px; text-align: right">
+        <h2 style="text-align: right">Project by</h2>
+        <h4>Harsh Bhardwaj (4NM21IS050)</h4>
+        <h4>Bhumika Rajeeva Shetty (4NM21IS036)</h4>
+        <h4>Bakthi S Shetty (4NM21IS033)</h4>
+      </div>
+    </div>
+  </body>
+
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(255, 229, 180);
+      color: #eeeef6;
+      font-size: large;
+    }
+
+    header {
+      background-color: #0998f0;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header-container {
+      max-width: 800px;
+      text-align: center;
+      margin: 0 auto;
+      align-items: center; /* Center horizontally */
+      text-align: center;
+    }
+
+    section#components li img {
+      width: 100%; /* Make the image fill the container width */
+      max-width: 300px; /* Limit the maximum width of the image */
+      height: auto; /* Maintain the aspect ratio */
+      display: block; /* Remove any extra spacing */
+      margin: 0 auto; /* Center the image */
+    }
+
+    .section-light {
+      background-color: #010a13;
+      color: white;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #bdc3c7;
+      padding-bottom: 20px;
+
+      flex: 0 0 calc(33.33% - 20px); /* Adjust width as needed with margin */
+      margin: 0 10px 20px;
+    }
+
+    .section-dark {
+      background-color: #010a13;
+      color: #fff;
+    }
+
+    h2 {
+      color: #3498db;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #bdc3c7;
+      padding-bottom: 20px;
+
+      flex: 0 0 calc(33.33% - 20px); /* Adjust width as needed with margin */
+      margin: 0 10px 20px;
+    }
+
+    h3 {
+      color: #3498db;
+    }
+
+    p {
+      color: white;
+      font-size: 24px;
+    }
+
+    .project-image {
+      text-align: center;
+    }
+
+    .project-image img {
+      max-width: 50%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+
+    .result-item {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .result-item img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+    .blynk-img {
+      max-width: 120%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+
+    .footer-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</html>
